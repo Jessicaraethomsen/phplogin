@@ -18,6 +18,13 @@
 <button type="submit"> SIGN IN</button>
 </form>
 
+<?php 
+ 	if (isset($_SESSION['id'])) {
+  echo $_SESSION['id'];
+ } else {
+  echo "You are not logged in!";
+   }
+ ?>
 
 <!--Making a form to develop the SIGN UP process-->
 <h4> SIGN UP </h4>
@@ -31,6 +38,12 @@
 
 <br><br> 
 
+<h4> LOG OUT</h4>
+
+<!--ARE LOGOUT FORM-->
+    <form action="logout.php">
+       <button type="submit"> Log out </button>
+ <form>
 
 
 </body>
