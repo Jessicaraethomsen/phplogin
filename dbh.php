@@ -1,4 +1,5 @@
 <?php
+//makes connection to the DB (LOCAL) need to fix later to my database live
 $conn = mysqli_connect("localhost", "root", "", "login");
 
 if (!$conn) {
