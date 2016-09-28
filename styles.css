@@ -11,12 +11,27 @@ header{
 	background-color: #EFEFEF;	
 	
 	}
+body {
+	background-color: #EFEFEF;	
+	
+	}
+	/*HERE IS THE NAVIGATION BAR*/
+		/*HERE IS THE NAVIGATION BAR*/
+			/*HERE IS THE NAVIGATION BAR*/
+#logo {
+	display: inline-block;
+	float: left;
+	margin-top: 1%;
+	margin-left: 1%;
+	}
+	
+
 
 nav ul {
 	float: right;
 	margin-top: 20px;
 	margin-right: 60px;
-	
+
 	}
 	
 nav ul li {
@@ -27,11 +42,17 @@ nav ul li {
 	}
 	
 nav ul li a {
-	color: #212020;
-	font-family: Arial;
-	font-size: 16px;
+	font-family: Oxygen;
+	font-size: .8em;
+	color: #A9A9A9;
+	padding: 7px 10px;
 	
 	}
+	
+nav ul li > a:hover {
+	background: #CAEBF2;
+	border-radius: .2em;
+}
 	
 nav ul form {
 	float: left;
@@ -40,14 +61,164 @@ nav ul form {
 nav ul form input {
 	float: left;
 	border: none;
+	height: 30px;
 	margin-right: 6px;
+	color: #A9A9A9;
+	}
+	
+	nav ul form input[type=text] {
+		font-size: 14px;
+		padding-left: 5px;
+		color:#A9A9A9;
+	}
+	
+	nav ul form input[type=Password] {
+		font-size: 14px;
+		padding-left: 5px;
+	
 	}
 	
 	nav ul form button {
 	float: left;
 	border: none;
 	margin-right: 20px;
-	background:#6EC2E0;
-	font-size: 16px;
+	background:#CAEBF2;
+	font-size: 14px;
+	width: 70px;
 	cursor: pointer;
+	border-radius: .2em;
+	font-family: Oxygen;
 	}
+	
+	nav ul form button:hover { 
+ 	background-color: #A9A9A9;
+	color: #FFFFFF;
+	font-family: Oxygen;
+}
+	
+	
+/*HERE IS SIGNUP FORM*/
+/*HERE IS SIGNUP FORM*/
+/*HERE IS SIGNUP FORM*/
+		
+	
+#signupform {
+	border: 20px;
+	color: black;
+	}
+	
+#formdesign {
+  position: relative;
+  
+  max-width: 300px;
+  margin: 0 auto 100px;
+  padding: 30px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  text-align: center;
+	
+	 
+	}
+
+	
+#formdesign input {
+  outline: 0;
+  background: #efefef;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+	}
+	
+	#formdesign input[type=text] {
+		font-size: 14px;
+		padding-left: 5px;
+		color:#A9A9A9;
+	}
+	
+	#formdesign input[type=password] {
+		font-size: 14px;
+		padding-left: 5px;
+		color:#A9A9A9;
+	}
+	
+	#formdesign button {
+  background: #CAEBF2;
+  width: 100%;
+  padding: 15px;
+  color: #A9A9A9;
+  font-size: 14px;
+  cursor: pointer;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border: white 1px solid;
+	}
+	
+	#formdesign button:hover { 
+ 	background-color: #A9A9A9;
+	color: #FFFFFF;
+}
+
+	
+	#formbox {
+	 position: relative;
+	 background: #FFFFFF;
+ 	 max-width: 300px;
+	 height: 475px;
+ 	 margin: 0 auto;
+	 margin-top: 10%;
+	 border-radius: .4em;;
+	
+	
+	}
+	
+	#formbox h2{
+ 	 padding-top: 2%;;
+	 height: 6%;
+  	font-size: 20px;
+  	font-weight: 300;
+	 color: #FF3B3F;
+	font-family: 'Oxygen', monospace;
+	
+	 text-align: center;
+		}
+		
+	#formbox h3{
+ 	 padding: 0;
+	 height: 7%;
+  	font-size: 15px;
+  	font-weight: 300;
+	 color: #FF3B3F;
+	font-family: 'Oxygen', monospace;
+	 text-align: center;
+		}	
+		
+		
+		#logo1 {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding-top:3%;
+	
+	}
+	
+	
+	#imagephp{
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+	}
+
+	
+	
+

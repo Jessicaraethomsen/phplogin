@@ -12,6 +12,8 @@
 <body>
 
 <header>
+
+<img id="logo" src="img/project-heading-bg copy.png" style="width:200px;height:40px; alt="logo" />
 	<nav>
     	<ul>
         	<li><a href="index.php">HOME</a></li>  
