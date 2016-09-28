@@ -1,10 +1,7 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>Untitled Document</title>
-</head>
+<?php
+$conn = mysqli_connect("localhost", "root", "", "login");
 
-<body>
-</body>
-</html>
+if (!$conn) {
+	die("Connection failed:".mysqli_connect_error());
+	}
+?>
