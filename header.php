@@ -14,8 +14,23 @@
 <header>
 	<nav>
     	<ul>
-        	<li><a href="index.php">HOME</li>
-            <li><a href="signuppage.php">SIGNUP</li>
+        	<li><a href="index.php">HOME</a></li>  
+        <?php
+		
+ 			if (isset($_SESSION['id'])) {
+  			echo 
+			  "<form action='logout.php'>
+       			<button type='submit'> Log out </button>
+ 				<form>";
+ 			} else {
+ 			 echo "<form action='login.php' method='POST' > 					<input type='text' name='uid'placeholder='Username'>
+<input type='Password' name='pwd' placeholder='Password'>
+<button type='submit'> SIGN IN</button>
+</form>";
+   }
+       
+		?>
+            <li><a href="signuppage.php">SIGNUP</a></li>
             
          </ul>
 </nav>
