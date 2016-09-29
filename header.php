@@ -1,6 +1,9 @@
 <?php 
   session_start();
+   $curpage = basename($_SERVER['PHP_SELF']);
 ?>
+
+
 
 <!doctype html>
 <html>
@@ -16,7 +19,7 @@
 <img id="logo" src="img/project-heading-bg copy.png" style="width:200px;height:40px; alt="logo" />
 	<nav>
     	<ul>
-        	<li><a href="index.php">HOME</a></li>  
+        	<li><a href="index.php"<?php if($curpage == 'index.php') {echo 'class="active"'; }?>>HOME</a></li>  
         <?php
 		
  			if (isset($_SESSION['id'])) {
@@ -32,7 +35,7 @@
    }
        
 		?>
-            <li><a href="signuppage.php">SIGNUP</a></li>
+            <li><a href="signuppage.php"<?php if($curpage == 'signuppage.php') {echo 'class="active"'; }?>>SIGNUP</a></li>
             
          </ul>
 </nav>

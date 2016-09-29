@@ -109,7 +109,6 @@ nav ul form input {
 	
 #formdesign {
   position: relative;
-  
   max-width: 300px;
   margin: 0 auto 100px;
   padding: 30px;
@@ -220,5 +219,9 @@ nav ul form input {
 	}
 
 	
-	
+	.active {
+	background: #ff3b3f;
+	color: #FFFFFF;
+	border-radius: .2em;
+	}
 
