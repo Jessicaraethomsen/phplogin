@@ -224,4 +224,23 @@ nav ul form input {
 	color: #FFFFFF;
 	border-radius: .2em;
 	}
+	
+	#welcomebox
+{
+	display: block;
+	margin-top: 7%;
+    margin-left: auto;
+    margin-right: auto;
+	width: 27%;
+	text-align:center;
+	}
 
+#welcomebox h3{
+ 	 padding: 0;
+	 height: 7%;
+  	font-size: 15px;
+  	font-weight: 300;
+	 color: #FF3B3F;
+	font-family: 'Oxygen', monospace;
+	 text-align: center;
+		}	
