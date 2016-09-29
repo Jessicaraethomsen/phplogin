@@ -28,8 +28,8 @@
        			<button type='submit'> Log out </button>
  				<form>";
  			} else {
- 			 echo "<form action='login.php' method='POST' > 					<input type='text' name='uid'placeholder='Username'>
-<input type='Password' name='pwd' placeholder='Password'>
+ 			 echo "<form action='login.php' method='POST' > 					<input type='text' name='uid'placeholder='Username' required>
+<input type='Password' name='pwd' placeholder='Password' required>
 <button type='submit'> SIGN IN</button>
 </form>";
    }
