@@ -14,7 +14,7 @@ $result = $conn->query($sql);
 	 else {
 		$_SESSION['id'] = $row['id'];
 		 }
-header("Location: index.php");
+header("Location: secret.php");
 ?>
 
 
