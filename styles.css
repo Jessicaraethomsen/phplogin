@@ -244,3 +244,18 @@ nav ul form input {
 	font-family: 'Oxygen', monospace;
 	 text-align: center;
 		}	
+#loginpage {
+	margin-top: 7%;
+	font-family: 'Oxygen', monospace;
+	 text-align: center;
+	  color: #FF3B3F;
+	
+	}
+	
+a{
+	color: #FF3B3F;
+	}
+	
+a:hover{
+	color: #A9A9A9;
+	}

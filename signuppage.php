@@ -1,5 +1,12 @@
 <?php 
 include 'header.php';
+
+if(isset($_SESSION['id'])){
+	echo 
+		 "<a href='secret.php'><h3 id='loginpage'>GO BACK TO SECRET PAGE</a>"; 
+ 			}
+
+
 ?>
 
 <!--Making a form to develop the SIGN UP process-->
